@@ -1,0 +1,62 @@
+[
+  {
+    "id": "K3375",
+    "name": "K 03375 (BM)",
+    "title": "The Flood Tablet",
+    "description": "The most famous cuneiform tablet in existence. Contains the flood narrative from Tablet XI of the Epic of Gilgamesh — the story of Utnapishtim, the ark, and the great deluge. Discovered by George Smith in 1872, who recognized its parallels to the biblical flood account.",
+    "period": "Neo-Assyrian (ca. 7th century BCE)",
+    "provenance": "Nineveh (Library of Ashurbanipal)",
+    "genre": "Literary",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/British_Museum_Flood_Tablet.jpg"
+  },
+  {
+    "id": "GILG5",
+    "name": "Sulaymaniyah Museum tablet",
+    "title": "Gilgamesh Tablet V — Cedar Forest",
+    "description": "Old Babylonian tablet containing previously unknown lines of the Epic of Gilgamesh describing the journey through the Cedar Forest. Purchased by the Sulaymaniyah Museum in Iraq around 2011 and published in 2014. Includes a vivid description of the cedar trees and the monster Humbaba.",
+    "period": "Old Babylonian (ca. 1900–1600 BCE)",
+    "provenance": "Sippar (probable)",
+    "genre": "Literary",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Tablet_V_of_the_Epic_of_Gilgamesh.jpg"
+  },
+  {
+    "id": "BM41462",
+    "name": "BM 41462",
+    "title": "Astronomical Diary: Halley's Comet",
+    "description": "Babylonian astronomical diary recording the appearance of Halley's Comet in September–October 164 BCE, the earliest confirmed written record of this comet. The text notes the comet's path relative to the Pleiades and observations of planetary positions.",
+    "period": "Seleucid era (164 BCE)",
+    "provenance": "Babylon",
+    "genre": "Scientific / Astronomical",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Cuneiform_tablet_recording_observation_of_Halley%27s_Comet.JPG"
+  },
+  {
+    "id": "VAT16378",
+    "name": "VAT 16378 (Berlin)",
+    "title": "Ration Tablet for King Jehoiachin",
+    "description": "Neo-Babylonian administrative tablet recording oil and barley rations issued to Jehoiachin, exiled King of Judah, and his five sons in Babylon. One of the earliest extra-biblical references to a figure from the Hebrew Bible, dated to ca. 592 BCE during the reign of Nebuchadnezzar II.",
+    "period": "Neo-Babylonian (ca. 592 BCE)",
+    "provenance": "Babylon",
+    "genre": "Administrative",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Jehoiachin_Ration_Tablet.JPG"
+  },
+  {
+    "id": "ADAB2500",
+    "name": "OIM A2537 (Oriental Institute)",
+    "title": "Early Dynastic Grain Allocation — Adab",
+    "description": "One of the earliest administrative records from the ancient city of Adab (modern Bismaya, Iraq), dated to the Early Dynastic III period. Records grain allocations to temple personnel. Among the oldest examples of complex administrative writing, predating the Ur III empire by five centuries.",
+    "period": "Early Dynastic III (ca. 2500–2340 BCE)",
+    "provenance": "Adab (mod. Bismaya)",
+    "genre": "Administrative",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Sumerian_26th_c_Adab.jpg"
+  },
+  {
+    "id": "NBC2513",
+    "name": "NBC 2513 (Yale)",
+    "title": "Ur III Silver and Grain Ledger",
+    "description": "Ur III administrative tablet from Drehem (Puzrish-Dagan), the great Ur III livestock and commodity redistribution center. Records silver disbursements and grain deliveries during the reign of Shulgi. A classic example of the extraordinarily detailed Ur III bureaucratic system.",
+    "period": "Ur III (ca. 2094–2047 BCE)",
+    "provenance": "Drehem (Puzrish-Dagan)",
+    "genre": "Administrative",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Cuneiform_script2.jpg"
+  }
+]

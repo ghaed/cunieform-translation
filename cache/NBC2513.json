@@ -1,0 +1,178 @@
+{
+  "tablet_id": "NBC2513",
+  "name": "NBC 2513 (Yale)",
+  "title": "Ur III Silver and Grain Ledger",
+  "description": "Ur III administrative tablet from Drehem (Puzrish-Dagan), the great Ur III livestock and commodity redistribution center. Records silver disbursements and grain deliveries during the reign of Shulgi. A classic example of the extraordinarily detailed Ur III bureaucratic system.",
+  "period": "Ur III (ca. 2094–2047 BCE)",
+  "provenance": "Drehem (Puzrish-Dagan)",
+  "genre": "Administrative",
+  "cdli_image_url": "https://cdli.mpiwg-berlin.mpg.de/dl/photo/NBC2513.jpg",
+  "cdli_url": "https://cdli.mpiwg-berlin.mpg.de/artifacts/NBC2513",
+  "raw_atf": "&NBC2513 = NBC 2513 (Ur III Silver and Grain Ledger, Drehem)\n#atf: lang sux\n#note: Ur III period, reign of Shulgi, ca. 2094-2047 BCE. Yale Babylonian Collection. Administrative ledger from Puzrish-Dagan (Drehem).\n@tablet\n@obverse\n1. 5(disz) gin2 ku3-babbar\n2. sa10 5(asz) gur sze-ba\n3. szu ti-a puzur4-{d}suen\n4. lu2-kin-gi4-a lugal\n5. 3(disz) gin2 ku3-babbar\n6. sa10 3(asz) gur nig2-ga\n7. szu ti-a ur-{d}namma\n8. i3-du8 e2 dub-ba\n9. 1(disz) 1/2(disz) gin2 ku3-babbar\n10. a-sza3 kin-ga-u3\n11. ki ur-{d}nanna-ta\n12. ba-zi\n@reverse\n13. 1(asz) gur sze-ba\n14. arad2-{d}nanna szabra\n15. 1(asz) 2(barig) sze sag-nig2-gur11\n16. iri-gal2-la sza3-gu4\n17. szunigin 8(disz) 1/2(disz) gin2 ku3-babbar\n18. szunigin 9(asz) 2(barig) gur sze\n19. zi-ga\n20. giri3 lu2-{d}suen dub-sar\n21. iti diri-sze-sag11-ku5\n22. mu us2-sa ki-masz{ki} ba-hul\n$ blank space\n",
+  "sections": [
+    {
+      "type": "id_line",
+      "content": "&NBC2513 = NBC 2513 (Ur III Silver and Grain Ledger, Drehem)"
+    },
+    {
+      "type": "comment",
+      "content": "#atf: lang sux"
+    },
+    {
+      "type": "comment",
+      "content": "#note: Ur III period, reign of Shulgi, ca. 2094-2047 BCE. Yale Babylonian Collection. Administrative ledger from Puzrish-Dagan (Drehem)."
+    },
+    {
+      "type": "structural",
+      "content": "@tablet"
+    },
+    {
+      "type": "structural",
+      "content": "@obverse"
+    },
+    {
+      "type": "content",
+      "number": "1",
+      "content": "5(disz) gin2 ku3-babbar",
+      "translation": "5 shekels of silver:"
+    },
+    {
+      "type": "content",
+      "number": "2",
+      "content": "sa10 5(asz) gur sze-ba",
+      "translation": "price of 5 gur of grain rations."
+    },
+    {
+      "type": "content",
+      "number": "3",
+      "content": "szu ti-a puzur4-{d}suen",
+      "translation": "Received by Puzur-Sin,"
+    },
+    {
+      "type": "content",
+      "number": "4",
+      "content": "lu2-kin-gi4-a lugal",
+      "translation": "royal messenger."
+    },
+    {
+      "type": "content",
+      "number": "5",
+      "content": "3(disz) gin2 ku3-babbar",
+      "translation": "3 shekels of silver:"
+    },
+    {
+      "type": "content",
+      "number": "6",
+      "content": "sa10 3(asz) gur nig2-ga",
+      "translation": "price of 3 gur of commodities."
+    },
+    {
+      "type": "content",
+      "number": "7",
+      "content": "szu ti-a ur-{d}namma",
+      "translation": "Received by Ur-Namma,"
+    },
+    {
+      "type": "content",
+      "number": "8",
+      "content": "i3-du8 e2 dub-ba",
+      "translation": "doorkeeper of the tablet house."
+    },
+    {
+      "type": "content",
+      "number": "9",
+      "content": "1(disz) 1/2(disz) gin2 ku3-babbar",
+      "translation": "1½ shekels of silver for"
+    },
+    {
+      "type": "content",
+      "number": "10",
+      "content": "a-sza3 kin-ga-u3",
+      "translation": "the Kin-ga-u3 field."
+    },
+    {
+      "type": "content",
+      "number": "11",
+      "content": "ki ur-{d}nanna-ta",
+      "translation": "From Ur-Nanna:"
+    },
+    {
+      "type": "content",
+      "number": "12",
+      "content": "ba-zi",
+      "translation": "disbursed."
+    },
+    {
+      "type": "structural",
+      "content": "@reverse"
+    },
+    {
+      "type": "content",
+      "number": "13",
+      "content": "1(asz) gur sze-ba",
+      "translation": "1 gur of grain ration"
+    },
+    {
+      "type": "content",
+      "number": "14",
+      "content": "arad2-{d}nanna szabra",
+      "translation": "for Arad-Nanna, the steward."
+    },
+    {
+      "type": "content",
+      "number": "15",
+      "content": "1(asz) 2(barig) sze sag-nig2-gur11",
+      "translation": "1 gur 2 barig of grain (as) main commodity"
+    },
+    {
+      "type": "content",
+      "number": "16",
+      "content": "iri-gal2-la sza3-gu4",
+      "translation": "for Irigala, the oxherd."
+    },
+    {
+      "type": "content",
+      "number": "17",
+      "content": "szunigin 8(disz) 1/2(disz) gin2 ku3-babbar",
+      "translation": "Total: 8½ shekels of silver."
+    },
+    {
+      "type": "content",
+      "number": "18",
+      "content": "szunigin 9(asz) 2(barig) gur sze",
+      "translation": "Total: 9 gur 2 barig of grain."
+    },
+    {
+      "type": "content",
+      "number": "19",
+      "content": "zi-ga",
+      "translation": "Expenditure."
+    },
+    {
+      "type": "content",
+      "number": "20",
+      "content": "giri3 lu2-{d}suen dub-sar",
+      "translation": "Via Lu-Sin, the scribe."
+    },
+    {
+      "type": "content",
+      "number": "21",
+      "content": "iti diri-sze-sag11-ku5",
+      "translation": "Month: intercalary Barley-Harvest."
+    },
+    {
+      "type": "content",
+      "number": "22",
+      "content": "mu us2-sa ki-masz{ki} ba-hul",
+      "translation": "Year: the year after Kimash was destroyed."
+    },
+    {
+      "type": "dollar",
+      "content": "$ blank space"
+    }
+  ],
+  "status": "translated",
+  "translation_count": 22,
+  "pipeline_stderr": "",
+  "timestamp": "2026-03-16T08:04:59.678425Z"
+}

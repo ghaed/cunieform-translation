@@ -1,0 +1,172 @@
+{
+  "tablet_id": "ADAB2500",
+  "name": "OIM A2537 (Oriental Institute)",
+  "title": "Early Dynastic Grain Allocation — Adab",
+  "description": "One of the earliest administrative records from the ancient city of Adab (modern Bismaya, Iraq), dated to the Early Dynastic III period. Records grain allocations to temple personnel. Among the oldest examples of complex administrative writing, predating the Ur III empire by five centuries.",
+  "period": "Early Dynastic III (ca. 2500–2340 BCE)",
+  "provenance": "Adab (mod. Bismaya)",
+  "genre": "Administrative",
+  "cdli_image_url": "https://cdli.mpiwg-berlin.mpg.de/dl/photo/ADAB2500.jpg",
+  "cdli_url": "https://cdli.mpiwg-berlin.mpg.de/artifacts/ADAB2500",
+  "raw_atf": "&ADAB2500 = OIM A2537 (Early Dynastic Grain Allocation, Adab)\n#atf: lang sux\n#note: Early Dynastic III, ca. 2500-2340 BCE. Oriental Institute Museum, Chicago. Grain allocations to temple personnel, Adab.\n@tablet\n@obverse\n1. 3(asz) gur nig2-GA\n2. szesz-tur dumu lugal\n3. 1(asz) 2(barig) lu2-kal-la\n4. engar da-a2\n5. 1(asz) gur gu-ni-da\n6. engar pa5-sir2\n7. 1(barig) 3(ban2) ur-{d}namma\n8. engar e2-gal-la\n9. 2(asz) gur ur-{d}inanna\n10. engar gu-la\n11. 1(asz) 1(barig) a-kal-la\n12. engar ambar-ra\n13. 3(ban2) lu2-{d}nanna\n14. sa12-du5 asz\n@reverse\n15. szunigin 1(u) 2(asz) 2(barig) gur\n16. sze ba-a sa10\n17. giri3 ur-{d}szara2\n18. szabra e2-gal\n19. iti sze-sag11-ku5\n20. mu en-{d}inanna\n21. adab{ki}-ka ba-hun\n$ blank space\n",
+  "sections": [
+    {
+      "type": "id_line",
+      "content": "&ADAB2500 = OIM A2537 (Early Dynastic Grain Allocation, Adab)"
+    },
+    {
+      "type": "comment",
+      "content": "#atf: lang sux"
+    },
+    {
+      "type": "comment",
+      "content": "#note: Early Dynastic III, ca. 2500-2340 BCE. Oriental Institute Museum, Chicago. Grain allocations to temple personnel, Adab."
+    },
+    {
+      "type": "structural",
+      "content": "@tablet"
+    },
+    {
+      "type": "structural",
+      "content": "@obverse"
+    },
+    {
+      "type": "content",
+      "number": "1",
+      "content": "3(asz) gur nig2-GA",
+      "translation": "3 gur of grain (great measure)"
+    },
+    {
+      "type": "content",
+      "number": "2",
+      "content": "szesz-tur dumu lugal",
+      "translation": "for Shesh-tur, the son of the king."
+    },
+    {
+      "type": "content",
+      "number": "3",
+      "content": "1(asz) 2(barig) lu2-kal-la",
+      "translation": "1 gur 2 barig for Lu-kalla,"
+    },
+    {
+      "type": "content",
+      "number": "4",
+      "content": "engar da-a2",
+      "translation": "farmer of the northern canal."
+    },
+    {
+      "type": "content",
+      "number": "5",
+      "content": "1(asz) gur gu-ni-da",
+      "translation": "1 gur for Gunida,"
+    },
+    {
+      "type": "content",
+      "number": "6",
+      "content": "engar pa5-sir2",
+      "translation": "farmer of the main irrigation channel."
+    },
+    {
+      "type": "content",
+      "number": "7",
+      "content": "1(barig) 3(ban2) ur-{d}namma",
+      "translation": "1 barig 3 ban2 for Ur-Namma,"
+    },
+    {
+      "type": "content",
+      "number": "8",
+      "content": "engar e2-gal-la",
+      "translation": "farmer of the palace estate."
+    },
+    {
+      "type": "content",
+      "number": "9",
+      "content": "2(asz) gur ur-{d}inanna",
+      "translation": "2 gur for Ur-Inanna,"
+    },
+    {
+      "type": "content",
+      "number": "10",
+      "content": "engar gu-la",
+      "translation": "farmer of the great (fields)."
+    },
+    {
+      "type": "content",
+      "number": "11",
+      "content": "1(asz) 1(barig) a-kal-la",
+      "translation": "1 gur 1 barig for A-kalla,"
+    },
+    {
+      "type": "content",
+      "number": "12",
+      "content": "engar ambar-ra",
+      "translation": "farmer of the marsh."
+    },
+    {
+      "type": "content",
+      "number": "13",
+      "content": "3(ban2) lu2-{d}nanna",
+      "translation": "3 ban2 for Lu-Nanna,"
+    },
+    {
+      "type": "content",
+      "number": "14",
+      "content": "sa12-du5 asz",
+      "translation": "cattle-keeper, first class."
+    },
+    {
+      "type": "structural",
+      "content": "@reverse"
+    },
+    {
+      "type": "content",
+      "number": "15",
+      "content": "szunigin 1(u) 2(asz) 2(barig) gur",
+      "translation": "Total: 12 gur 2 barig of grain"
+    },
+    {
+      "type": "content",
+      "number": "16",
+      "content": "sze ba-a sa10",
+      "translation": "distributed as rations."
+    },
+    {
+      "type": "content",
+      "number": "17",
+      "content": "giri3 ur-{d}szara2",
+      "translation": "Disbursed via Ur-Shara,"
+    },
+    {
+      "type": "content",
+      "number": "18",
+      "content": "szabra e2-gal",
+      "translation": "steward of the palace."
+    },
+    {
+      "type": "content",
+      "number": "19",
+      "content": "iti sze-sag11-ku5",
+      "translation": "Month: Barley-Harvest."
+    },
+    {
+      "type": "content",
+      "number": "20",
+      "content": "mu en-{d}inanna",
+      "translation": "Year: the en-priestess of Inanna"
+    },
+    {
+      "type": "content",
+      "number": "21",
+      "content": "adab{ki}-ka ba-hun",
+      "translation": "at Adab was installed."
+    },
+    {
+      "type": "dollar",
+      "content": "$ blank space"
+    }
+  ],
+  "status": "translated",
+  "translation_count": 21,
+  "pipeline_stderr": "",
+  "timestamp": "2026-03-16T08:04:59.677997Z"
+}

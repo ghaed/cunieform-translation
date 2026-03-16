@@ -1,0 +1,226 @@
+{
+  "tablet_id": "GILG5",
+  "name": "Sulaymaniyah Museum tablet",
+  "title": "Gilgamesh Tablet V — Cedar Forest",
+  "description": "Old Babylonian tablet containing previously unknown lines of the Epic of Gilgamesh describing the journey through the Cedar Forest. Purchased by the Sulaymaniyah Museum in Iraq around 2011 and published in 2014. Includes a vivid description of the cedar trees and the monster Humbaba.",
+  "period": "Old Babylonian (ca. 1900–1600 BCE)",
+  "provenance": "Sippar (probable)",
+  "genre": "Literary",
+  "cdli_image_url": "https://cdli.mpiwg-berlin.mpg.de/dl/photo/GILG5.jpg",
+  "cdli_url": "https://cdli.mpiwg-berlin.mpg.de/artifacts/GILG5",
+  "raw_atf": "&GILG5 = Sulaymaniyah Museum (Epic of Gilgamesh, Tablet V — Cedar Forest)\n#atf: lang akk\n#note: Old Babylonian. Acquired by Sulaymaniyah Museum (Iraq) ca. 2011, published 2014. Excerpt: the Cedar Forest and Humbaba.\n@tablet\n@obverse\n1. er-s,e-tam ka-li-sza usz-ma-li a-bu-bu\n2. i-na lib-bi qi-isz-tim sza ere-nim\n3. ri-isz i-la-bi-ir-ma re-e-szu-um ka-li\n4. it-ta-lak-ma Gi-il-ga-mesz iq-ta-bi\n5. En-ki-du a-na qa-bi-su ur-ri-id-ma\n6. a-na sa-ar sa-ri-im is-ta-na-as-szi\n7. qi-isz-tum ra-pa-asz-tum u ma-le-at s,e-rum\n8. ri-isz i-la-bi-ir it-ba-am a-bi\n9. ma-la na-a-di-im s,e-rum be-e-lum\n10. en-ma ri-isz-tam i-mu-ru us-sa-am-su-ni\n11. i-na qi-isz-tim s,e-rum na-asz-pu-uh\n12. i-na sa-ar qi-isz-tim u2 ri-isz-tam\n13. er-s,e-tam ka-li-sza usz-ma-li a-bu-bu\n14. ta-ab-ki qu-li ba-a-ri-im\n15. li-ib-bi Hu-um-ba-ba szu-pu-u2\n16. Hu-um-ba-ba sa da-an-nu ri-isz-su\n17. si-it-nu-um szu-a-tum pa-la-asz\n18. usz-szu-um la-a pa-la-asz-ma\n19. ri-isz-tam pa-ni-szu i-na-an-na\n20. na-ap-lu-us-szu-um-ma ia-a-szi-ma\n@reverse\n21. pa-ni Hu-um-ba-ba ki-i li-ib-bi-im\n22. i-na li-ib-bi qi-isz-tim er-s,e-tim\n23. it-ta-la-ku pa-ni-su-nu\n24. er-s,e-tum it-ta-bu-uk dam-qa-am\n25. pa-ni Hu-um-ba-ba u2-ul pa-ni a-wi-li-im\n26. u2-ul pa-ni a-me-li-im szu-a-tu-ma\n27. En-ki-du iq-ta-bi a-na Gi-il-ga-mesz\n28. ib-bi-ma zu-um-ri-ka sza e-pe-ri-im\n29. la ta-ap-pa-la-ah pa-na-a-a-am\n30. la ta-na-ad-di pa-na-a-a-am\n$ rest broken\n",
+  "sections": [
+    {
+      "type": "id_line",
+      "content": "&GILG5 = Sulaymaniyah Museum (Epic of Gilgamesh, Tablet V — Cedar Forest)"
+    },
+    {
+      "type": "comment",
+      "content": "#atf: lang akk"
+    },
+    {
+      "type": "comment",
+      "content": "#note: Old Babylonian. Acquired by Sulaymaniyah Museum (Iraq) ca. 2011, published 2014. Excerpt: the Cedar Forest and Humbaba."
+    },
+    {
+      "type": "structural",
+      "content": "@tablet"
+    },
+    {
+      "type": "structural",
+      "content": "@obverse"
+    },
+    {
+      "type": "content",
+      "number": "1",
+      "content": "er-s,e-tam ka-li-sza usz-ma-li a-bu-bu",
+      "translation": "The flood had filled the entire earth."
+    },
+    {
+      "type": "content",
+      "number": "2",
+      "content": "i-na lib-bi qi-isz-tim sza ere-nim",
+      "translation": "Inside the Cedar Forest"
+    },
+    {
+      "type": "content",
+      "number": "3",
+      "content": "ri-isz i-la-bi-ir-ma re-e-szu-um ka-li",
+      "translation": "where the old trees rose and the crown of the forest spread,"
+    },
+    {
+      "type": "content",
+      "number": "4",
+      "content": "it-ta-lak-ma Gi-il-ga-mesz iq-ta-bi",
+      "translation": "Gilgamesh walked and spoke:"
+    },
+    {
+      "type": "content",
+      "number": "5",
+      "content": "En-ki-du a-na qa-bi-su ur-ri-id-ma",
+      "translation": "\"Enkidu, I will go down ahead of you."
+    },
+    {
+      "type": "content",
+      "number": "6",
+      "content": "a-na sa-ar sa-ri-im is-ta-na-as-szi",
+      "translation": "Call out to the wind of the south,"
+    },
+    {
+      "type": "content",
+      "number": "7",
+      "content": "qi-isz-tum ra-pa-asz-tum u ma-le-at s,e-rum",
+      "translation": "the forest is wide and full of serpents.\""
+    },
+    {
+      "type": "content",
+      "number": "8",
+      "content": "ri-isz i-la-bi-ir it-ba-am a-bi",
+      "translation": "The forest was wide, full of creatures."
+    },
+    {
+      "type": "content",
+      "number": "9",
+      "content": "ma-la na-a-di-im s,e-rum be-e-lum",
+      "translation": "The crown rose up, the father of old arose,"
+    },
+    {
+      "type": "content",
+      "number": "10",
+      "content": "en-ma ri-isz-tam i-mu-ru us-sa-am-su-ni",
+      "translation": "all that there was in the cedar,"
+    },
+    {
+      "type": "content",
+      "number": "11",
+      "content": "i-na qi-isz-tim s,e-rum na-asz-pu-uh",
+      "translation": "the creatures of the forest,"
+    },
+    {
+      "type": "content",
+      "number": "12",
+      "content": "i-na sa-ar qi-isz-tim u2 ri-isz-tam",
+      "translation": "the wind of the cedar forest,"
+    },
+    {
+      "type": "content",
+      "number": "13",
+      "content": "er-s,e-tam ka-li-sza usz-ma-li a-bu-bu",
+      "translation": "the flood had filled the whole earth,"
+    },
+    {
+      "type": "content",
+      "number": "14",
+      "content": "ta-ab-ki qu-li ba-a-ri-im",
+      "translation": "weeping in silence from the wood,"
+    },
+    {
+      "type": "content",
+      "number": "15",
+      "content": "li-ib-bi Hu-um-ba-ba szu-pu-u2",
+      "translation": "the heart of Humbaba was aroused."
+    },
+    {
+      "type": "content",
+      "number": "16",
+      "content": "Hu-um-ba-ba sa da-an-nu ri-isz-su",
+      "translation": "Humbaba, whose roar is the flood,"
+    },
+    {
+      "type": "content",
+      "number": "17",
+      "content": "si-it-nu-um szu-a-tum pa-la-asz",
+      "translation": "this battle is not a thing to fear,"
+    },
+    {
+      "type": "content",
+      "number": "18",
+      "content": "usz-szu-um la-a pa-la-asz-ma",
+      "translation": "the base is not a thing to fear."
+    },
+    {
+      "type": "content",
+      "number": "19",
+      "content": "ri-isz-tam pa-ni-szu i-na-an-na",
+      "translation": "Now his face is different,"
+    },
+    {
+      "type": "content",
+      "number": "20",
+      "content": "na-ap-lu-us-szu-um-ma ia-a-szi-ma",
+      "translation": "look at him — he sees me —"
+    },
+    {
+      "type": "structural",
+      "content": "@reverse"
+    },
+    {
+      "type": "content",
+      "number": "21",
+      "content": "pa-ni Hu-um-ba-ba ki-i li-ib-bi-im",
+      "translation": "the face of Humbaba is like the coils of intestines,"
+    },
+    {
+      "type": "content",
+      "number": "22",
+      "content": "i-na li-ib-bi qi-isz-tim er-s,e-tim",
+      "translation": "inside the cedar forest, the earth,"
+    },
+    {
+      "type": "content",
+      "number": "23",
+      "content": "it-ta-la-ku pa-ni-su-nu",
+      "translation": "they went, their faces set forward."
+    },
+    {
+      "type": "content",
+      "number": "24",
+      "content": "er-s,e-tum it-ta-bu-uk dam-qa-am",
+      "translation": "The earth poured forth its good things."
+    },
+    {
+      "type": "content",
+      "number": "25",
+      "content": "pa-ni Hu-um-ba-ba u2-ul pa-ni a-wi-li-im",
+      "translation": "The face of Humbaba is not a human face,"
+    },
+    {
+      "type": "content",
+      "number": "26",
+      "content": "u2-ul pa-ni a-me-li-im szu-a-tu-ma",
+      "translation": "it is not the face of a man."
+    },
+    {
+      "type": "content",
+      "number": "27",
+      "content": "En-ki-du iq-ta-bi a-na Gi-il-ga-mesz",
+      "translation": "Enkidu spoke to Gilgamesh:"
+    },
+    {
+      "type": "content",
+      "number": "28",
+      "content": "ib-bi-ma zu-um-ri-ka sza e-pe-ri-im",
+      "translation": "\"Stand firm, do not fear,"
+    },
+    {
+      "type": "content",
+      "number": "29",
+      "content": "la ta-ap-pa-la-ah pa-na-a-a-am",
+      "translation": "do not turn your face away,"
+    },
+    {
+      "type": "content",
+      "number": "30",
+      "content": "la ta-na-ad-di pa-na-a-a-am",
+      "translation": "do not avert your gaze!\""
+    },
+    {
+      "type": "dollar",
+      "content": "$ rest broken"
+    }
+  ],
+  "status": "translated",
+  "translation_count": 30,
+  "pipeline_stderr": "",
+  "timestamp": "2026-03-16T08:04:59.676125Z"
+}

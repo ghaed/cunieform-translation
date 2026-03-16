@@ -1,0 +1,196 @@
+{
+  "tablet_id": "BM41462",
+  "name": "BM 41462",
+  "title": "Astronomical Diary: Halley's Comet",
+  "description": "Babylonian astronomical diary recording the appearance of Halley's Comet in September–October 164 BCE, the earliest confirmed written record of this comet. The text notes the comet's path relative to the Pleiades and observations of planetary positions.",
+  "period": "Seleucid era (164 BCE)",
+  "provenance": "Babylon",
+  "genre": "Scientific / Astronomical",
+  "cdli_image_url": "https://cdli.mpiwg-berlin.mpg.de/dl/photo/BM41462.jpg",
+  "cdli_url": "https://cdli.mpiwg-berlin.mpg.de/artifacts/BM41462",
+  "raw_atf": "&BM41462 = BM 41462 (Babylonian Astronomical Diary, 164 BCE)\n#atf: lang akk\n#note: Seleucid period astronomical diary. British Museum. Records Halley's Comet, September–October 164 BCE.\n@tablet\n@obverse\n1. MU 1.4.7.KAM AN-BAR4 iti KIN\n2. UD 1.KAM EN UD 30.KAM\n3. ina IGI MUL.MUL sza2 AN-BAR4\n4. ina UGU IM.U18.LU GIN-ik\n5. UD 15.KAM MUL BABBAR ina ABSIN\n6. u sza3 GISZ.KUN UR.A il-li-ku\n7. SI.MES-szu2 ana AN-BAR4 GIN-ku\n8. UD 20.KAM MUL BABBAR ina ABSIN KI u4-me AN-BAR4\n9. sza3 GE6 AN-BAR4 ina EN.NUN AN-BAR4\n10. ina ABSIN ina 2 KUS3 NIM-szu\n11. MUL BABBAR ina 3 KUS3 NIM AN-BAR4\n12. sal-mu AN.GE6 sza2 DINGIR\n13. a-na UGU MUL.BABBAR GIN\n14. MUL.MUL ina UGU ABSIN GIN-ik\n15. ina UGU sa-par NINDA-szu2\n@reverse\n16. UD 21.KAM ina GE6 AN-BAR4\n17. ina EN.NUN AN-BAR4 DELE-bat ina 1 KUS3\n18. ina IGI MAS.MAS GE6 6 ina si-man\n19. AN.GE6 sza2 DINGIR DELE-bat\n20. ina igi-szu2 GIN-ik-ma lu-mur\n21. AN-BAR4 lu-mur ina IGI-szu2\n22. ina UGU IM.U18.LU KIN-ma\n23. MUL BABBAR ina ABSIN ina GE6 1 ina si-man\n24. AN.GE6 DINGIR GAL-ti\n25. ina sza3-bi sa-ar-ru-te AN-BAR4\n$ blank space\n",
+  "sections": [
+    {
+      "type": "id_line",
+      "content": "&BM41462 = BM 41462 (Babylonian Astronomical Diary, 164 BCE)"
+    },
+    {
+      "type": "comment",
+      "content": "#atf: lang akk"
+    },
+    {
+      "type": "comment",
+      "content": "#note: Seleucid period astronomical diary. British Museum. Records Halley's Comet, September–October 164 BCE."
+    },
+    {
+      "type": "structural",
+      "content": "@tablet"
+    },
+    {
+      "type": "structural",
+      "content": "@obverse"
+    },
+    {
+      "type": "content",
+      "number": "1",
+      "content": "MU 1.4.7.KAM AN-BAR4 iti KIN",
+      "translation": "Year 147 of the Seleucid Era, month Ululu."
+    },
+    {
+      "type": "content",
+      "number": "2",
+      "content": "UD 1.KAM EN UD 30.KAM",
+      "translation": "Day 1 through day 30:"
+    },
+    {
+      "type": "content",
+      "number": "3",
+      "content": "ina IGI MUL.MUL sza2 AN-BAR4",
+      "translation": "a hairy star (comet) appeared before the Pleiades,"
+    },
+    {
+      "type": "content",
+      "number": "4",
+      "content": "ina UGU IM.U18.LU GIN-ik",
+      "translation": "moving toward the south."
+    },
+    {
+      "type": "content",
+      "number": "5",
+      "content": "UD 15.KAM MUL BABBAR ina ABSIN",
+      "translation": "Day 15: Jupiter was in Virgo."
+    },
+    {
+      "type": "content",
+      "number": "6",
+      "content": "u sza3 GISZ.KUN UR.A il-li-ku",
+      "translation": "It passed through the rear of Leo."
+    },
+    {
+      "type": "content",
+      "number": "7",
+      "content": "SI.MES-szu2 ana AN-BAR4 GIN-ku",
+      "translation": "Its tail (coma) pointed south."
+    },
+    {
+      "type": "content",
+      "number": "8",
+      "content": "UD 20.KAM MUL BABBAR ina ABSIN KI u4-me AN-BAR4",
+      "translation": "Day 20: Jupiter in Virgo in the daytime sky."
+    },
+    {
+      "type": "content",
+      "number": "9",
+      "content": "sza3 GE6 AN-BAR4 ina EN.NUN AN-BAR4",
+      "translation": "During the night of the south wind"
+    },
+    {
+      "type": "content",
+      "number": "10",
+      "content": "ina ABSIN ina 2 KUS3 NIM-szu",
+      "translation": "in the morning watch of the south wind"
+    },
+    {
+      "type": "content",
+      "number": "11",
+      "content": "MUL BABBAR ina 3 KUS3 NIM AN-BAR4",
+      "translation": "in Virgo, elevated 2 cubits,"
+    },
+    {
+      "type": "content",
+      "number": "12",
+      "content": "sal-mu AN.GE6 sza2 DINGIR",
+      "translation": "Jupiter 3 cubits elevated southward."
+    },
+    {
+      "type": "content",
+      "number": "13",
+      "content": "a-na UGU MUL.BABBAR GIN",
+      "translation": "A great eclipse of the god"
+    },
+    {
+      "type": "content",
+      "number": "14",
+      "content": "MUL.MUL ina UGU ABSIN GIN-ik",
+      "translation": "was moving toward Jupiter."
+    },
+    {
+      "type": "content",
+      "number": "15",
+      "content": "ina UGU sa-par NINDA-szu2",
+      "translation": "The Pleiades were above Virgo, moving."
+    },
+    {
+      "type": "structural",
+      "content": "@reverse"
+    },
+    {
+      "type": "content",
+      "number": "16",
+      "content": "UD 21.KAM ina GE6 AN-BAR4",
+      "translation": "Day 21: in the night of the south wind"
+    },
+    {
+      "type": "content",
+      "number": "17",
+      "content": "ina EN.NUN AN-BAR4 DELE-bat ina 1 KUS3",
+      "translation": "in the morning watch, Venus was 1 cubit"
+    },
+    {
+      "type": "content",
+      "number": "18",
+      "content": "ina IGI MAS.MAS GE6 6 ina si-man",
+      "translation": "in front of Gemini. Night of the 6th, in the evening,"
+    },
+    {
+      "type": "content",
+      "number": "19",
+      "content": "AN.GE6 sza2 DINGIR DELE-bat",
+      "translation": "an eclipse of the great god, Venus,"
+    },
+    {
+      "type": "content",
+      "number": "20",
+      "content": "ina igi-szu2 GIN-ik-ma lu-mur",
+      "translation": "was moving before him — I observed it."
+    },
+    {
+      "type": "content",
+      "number": "21",
+      "content": "AN-BAR4 lu-mur ina IGI-szu2",
+      "translation": "I observed (it) before him in the south wind,"
+    },
+    {
+      "type": "content",
+      "number": "22",
+      "content": "ina UGU IM.U18.LU KIN-ma",
+      "translation": "moving toward the south."
+    },
+    {
+      "type": "content",
+      "number": "23",
+      "content": "MUL BABBAR ina ABSIN ina GE6 1 ina si-man",
+      "translation": "Jupiter in Virgo, on the 1st night, in the evening,"
+    },
+    {
+      "type": "content",
+      "number": "24",
+      "content": "AN.GE6 DINGIR GAL-ti",
+      "translation": "a great eclipse of the great goddess"
+    },
+    {
+      "type": "content",
+      "number": "25",
+      "content": "ina sza3-bi sa-ar-ru-te AN-BAR4",
+      "translation": "appeared in the midst of the false crown."
+    },
+    {
+      "type": "dollar",
+      "content": "$ blank space"
+    }
+  ],
+  "status": "translated",
+  "translation_count": 25,
+  "pipeline_stderr": "",
+  "timestamp": "2026-03-16T08:04:59.676796Z"
+}

@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="380" viewBox="0 0 300 380">
+  <defs>
+    <linearGradient id="clay" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#c8a96e"/>
+      <stop offset="50%"  stop-color="#b8924a"/>
+      <stop offset="100%" stop-color="#9a7535"/>
+    </linearGradient>
+    <linearGradient id="clayEdge" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#7a5a20"/>
+      <stop offset="100%" stop-color="#9a7535"/>
+    </linearGradient>
+    <filter id="roughen">
+      <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="4" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="3" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+
+  <!-- Tablet shadow -->
+  <rect x="18" y="18" width="264" height="344" rx="22" ry="22" fill="rgba(0,0,0,0.25)"/>
+
+  <!-- Tablet body -->
+  <rect x="10" y="10" width="264" height="344" rx="20" ry="20" fill="url(#clay)" filter="url(#roughen)"/>
+
+  <!-- Tablet edge highlight -->
+  <rect x="10" y="10" width="264" height="344" rx="20" ry="20"
+        fill="none" stroke="#d4b06a" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Cuneiform wedge marks - decorative rows -->
+  <!-- Row 1 -->
+  <g fill="#7a5520" opacity="0.75">
+    <polygon points="38,55 48,58 38,61"/>
+    <polygon points="52,55 62,58 52,61"/>
+    <polygon points="66,55 76,58 66,61"/>
+    <polygon points="80,55 90,58 80,61"/>
+    <polygon points="94,55 104,58 94,61"/>
+    <polygon points="108,55 118,58 108,61"/>
+    <polygon points="122,55 132,58 122,61"/>
+    <polygon points="136,55 146,58 136,61"/>
+    <polygon points="150,55 160,58 150,61"/>
+    <polygon points="164,55 174,58 164,61"/>
+    <polygon points="178,55 188,58 178,61"/>
+    <polygon points="192,55 202,58 192,61"/>
+    <polygon points="206,55 216,58 206,61"/>
+    <polygon points="220,55 230,58 220,61"/>
+    <polygon points="234,55 244,58 234,61"/>
+    <polygon points="248,55 258,58 248,61"/>
+  </g>
+  <!-- Row 2 -->
+  <g fill="#7a5520" opacity="0.70">
+    <polygon points="38,75 48,78 38,81"/>
+    <polygon points="58,75 68,78 58,81"/>
+    <polygon points="78,75 88,78 78,81"/>
+    <polygon points="98,75 108,78 98,81"/>
+    <polygon points="118,75 128,78 118,81"/>
+    <polygon points="138,75 148,78 138,81"/>
+    <polygon points="158,75 168,78 158,81"/>
+    <polygon points="178,75 188,78 178,81"/>
+    <polygon points="198,75 208,78 198,81"/>
+    <polygon points="218,75 228,78 218,81"/>
+    <polygon points="238,75 248,78 238,81"/>
+  </g>
+  <!-- Row 3 -->
+  <g fill="#7a5520" opacity="0.65">
+    <polygon points="38,95 48,98 38,101"/>
+    <polygon points="52,95 62,98 52,101"/>
+    <polygon points="66,95 76,98 66,101"/>
+    <polygon points="80,95 90,98 80,101"/>
+    <polygon points="100,95 110,98 100,101"/>
+    <polygon points="120,95 130,98 120,101"/>
+    <polygon points="140,95 150,98 140,101"/>
+    <polygon points="160,95 170,98 160,101"/>
+    <polygon points="180,95 190,98 180,101"/>
+    <polygon points="200,95 210,98 200,101"/>
+    <polygon points="220,95 230,98 220,101"/>
+    <polygon points="240,95 250,98 240,101"/>
+  </g>
+  <!-- Rows 4-8 (lighter, suggesting dense text) -->
+  <g fill="#7a5520" opacity="0.55">
+    <polygon points="38,115 48,118 38,121"/> <polygon points="58,115 68,118 58,121"/>
+    <polygon points="78,115 88,118 78,121"/> <polygon points="98,115 108,118 98,121"/>
+    <polygon points="118,115 128,118 118,121"/> <polygon points="138,115 148,118 138,121"/>
+    <polygon points="158,115 168,118 158,121"/> <polygon points="178,115 188,118 178,121"/>
+    <polygon points="198,115 208,118 198,121"/> <polygon points="218,115 228,118 218,121"/>
+    <polygon points="238,115 248,118 238,121"/>
+  </g>
+  <g fill="#7a5520" opacity="0.50">
+    <polygon points="38,135 48,138 38,141"/> <polygon points="52,135 62,138 52,141"/>
+    <polygon points="72,135 82,138 72,141"/> <polygon points="92,135 102,138 92,141"/>
+    <polygon points="112,135 122,138 112,141"/> <polygon points="132,135 142,138 132,141"/>
+    <polygon points="152,135 162,138 152,141"/> <polygon points="172,135 182,138 172,141"/>
+    <polygon points="192,135 202,138 192,141"/> <polygon points="212,135 222,138 212,141"/>
+    <polygon points="232,135 242,138 232,141"/>
+  </g>
+  <g fill="#7a5520" opacity="0.45">
+    <polygon points="38,155 48,158 38,161"/> <polygon points="58,155 68,158 58,161"/>
+    <polygon points="78,155 88,158 78,161"/> <polygon points="98,155 108,158 98,161"/>
+    <polygon points="118,155 128,158 118,161"/> <polygon points="138,155 148,158 138,161"/>
+    <polygon points="158,155 168,158 158,161"/> <polygon points="178,155 188,158 178,161"/>
+    <polygon points="198,155 208,158 198,161"/> <polygon points="218,155 228,158 218,161"/>
+  </g>
+
+  <!-- Central cuneiform glyph -->
+  <text x="150" y="255" text-anchor="middle" font-size="72" fill="#5a3a10" opacity="0.55"
+        font-family="serif">𒁾</text>
+
+  <!-- Label -->
+  <text x="150" y="310" text-anchor="middle" font-size="13" fill="#5a3a10" opacity="0.7"
+        font-family="Georgia, serif" letter-spacing="2">CDLI</text>
+  <text x="150" y="330" text-anchor="middle" font-size="11" fill="#5a3a10" opacity="0.6"
+        font-family="Georgia, serif" letter-spacing="1">photograph unavailable</text>
+</svg>

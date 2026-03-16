@@ -1,0 +1,166 @@
+{
+  "tablet_id": "VAT16378",
+  "name": "VAT 16378 (Berlin)",
+  "title": "Ration Tablet for King Jehoiachin",
+  "description": "Neo-Babylonian administrative tablet recording oil and barley rations issued to Jehoiachin, exiled King of Judah, and his five sons in Babylon. One of the earliest extra-biblical references to a figure from the Hebrew Bible, dated to ca. 592 BCE during the reign of Nebuchadnezzar II.",
+  "period": "Neo-Babylonian (ca. 592 BCE)",
+  "provenance": "Babylon",
+  "genre": "Administrative",
+  "cdli_image_url": "https://cdli.mpiwg-berlin.mpg.de/dl/photo/VAT16378.jpg",
+  "cdli_url": "https://cdli.mpiwg-berlin.mpg.de/artifacts/VAT16378",
+  "raw_atf": "&VAT16378 = VAT 16378 (Ration Tablet for Jehoiachin, King of Judah)\n#atf: lang akk\n#note: Neo-Babylonian administrative tablet, ca. 592 BCE. Vorderasiatisches Museum, Berlin. Records rations for exiled Judean king.\n@tablet\n@obverse\n1. 10 (sila3) KAS sza Ia-u-kin LUGAL sza Ia-a-hu-du\n2. 2 1/2 sila3 KAS sza 5 DUMU.MES-szu\n3. 1/2 sila3 KAS sza Pur-na-a\n4. 1 (sila3) KAS sza 8 ia-a-hu-da-a-a\n5. 1/2 sila3 KAS sza 3 DU.A.BI\n6. sa szu-qu-pu a-na mu-uh-hi\n7. Ia-a-a-u-ki-nu LUGAL sza Ia-a-hu-du\n8. zi-it-tu2 sza Ia-hu-di-i\n9. sa i-na URU.BAB.ILI{ki} al-ta-kan\n10. UD.5.KAM MU.4.KAM\n11. Na-bi-um-ku-du-ur-ri-u-s,ur LUGAL\n@reverse\n12. it-ti sza-kin-ti-isu2 sza URU.BAB.ILI{ki}\n13. 30 NINDA sa Ia-ku-u-ki-nu\n14. 2 1/2 NINDA sza 5 DUMU-szu\n15. asz2-szum ki-i-ni u2-ka-an\n16. a-na IGI sza-kin-ti-isu2\n17. mu-du-u2 sza zi-it-ti\n18. sza Ia-u-kin sza Ia-a-hu-du\n19. mNa-bi-um-kin DUMU.LUGAL\n20. it-ti sza-kin-ti-isu2 isz-ta-pa-ar\n$ blank space\n",
+  "sections": [
+    {
+      "type": "id_line",
+      "content": "&VAT16378 = VAT 16378 (Ration Tablet for Jehoiachin, King of Judah)"
+    },
+    {
+      "type": "comment",
+      "content": "#atf: lang akk"
+    },
+    {
+      "type": "comment",
+      "content": "#note: Neo-Babylonian administrative tablet, ca. 592 BCE. Vorderasiatisches Museum, Berlin. Records rations for exiled Judean king."
+    },
+    {
+      "type": "structural",
+      "content": "@tablet"
+    },
+    {
+      "type": "structural",
+      "content": "@obverse"
+    },
+    {
+      "type": "content",
+      "number": "1",
+      "content": "10 (sila3) KAS sza Ia-u-kin LUGAL sza Ia-a-hu-du",
+      "translation": "10 (sila) of oil for Ia-u-kin, king of the land of Judah."
+    },
+    {
+      "type": "content",
+      "number": "2",
+      "content": "2 1/2 sila3 KAS sza 5 DUMU.MES-szu",
+      "translation": "2½ sila of oil for his 5 sons."
+    },
+    {
+      "type": "content",
+      "number": "3",
+      "content": "1/2 sila3 KAS sza Pur-na-a",
+      "translation": "½ sila of oil for Purna-a."
+    },
+    {
+      "type": "content",
+      "number": "4",
+      "content": "1 (sila3) KAS sza 8 ia-a-hu-da-a-a",
+      "translation": "1 sila of oil for 8 Judeans."
+    },
+    {
+      "type": "content",
+      "number": "5",
+      "content": "1/2 sila3 KAS sza 3 DU.A.BI",
+      "translation": "½ sila of oil for 3 craftsmen."
+    },
+    {
+      "type": "content",
+      "number": "6",
+      "content": "sa szu-qu-pu a-na mu-uh-hi",
+      "translation": "Concerning the allowance issued"
+    },
+    {
+      "type": "content",
+      "number": "7",
+      "content": "Ia-a-a-u-ki-nu LUGAL sza Ia-a-hu-du",
+      "translation": "to Jehoiachin, king of the land of Judah,"
+    },
+    {
+      "type": "content",
+      "number": "8",
+      "content": "zi-it-tu2 sza Ia-hu-di-i",
+      "translation": "the allotment of the Judeans"
+    },
+    {
+      "type": "content",
+      "number": "9",
+      "content": "sa i-na URU.BAB.ILI{ki} al-ta-kan",
+      "translation": "who are in Babylon —"
+    },
+    {
+      "type": "content",
+      "number": "10",
+      "content": "UD.5.KAM MU.4.KAM",
+      "translation": "day 5, year 4"
+    },
+    {
+      "type": "content",
+      "number": "11",
+      "content": "Na-bi-um-ku-du-ur-ri-u-s,ur LUGAL",
+      "translation": "of Nebuchadnezzar, king."
+    },
+    {
+      "type": "structural",
+      "content": "@reverse"
+    },
+    {
+      "type": "content",
+      "number": "12",
+      "content": "it-ti sza-kin-ti-isu2 sza URU.BAB.ILI{ki}",
+      "translation": "Together with his chamberlain in Babylon:"
+    },
+    {
+      "type": "content",
+      "number": "13",
+      "content": "30 NINDA sa Ia-ku-u-ki-nu",
+      "translation": "30 bread loaves for Jehoiachin,"
+    },
+    {
+      "type": "content",
+      "number": "14",
+      "content": "2 1/2 NINDA sza 5 DUMU-szu",
+      "translation": "2½ bread loaves for his 5 sons."
+    },
+    {
+      "type": "content",
+      "number": "15",
+      "content": "asz2-szum ki-i-ni u2-ka-an",
+      "translation": "As the established (ration) let it be confirmed"
+    },
+    {
+      "type": "content",
+      "number": "16",
+      "content": "a-na IGI sza-kin-ti-isu2",
+      "translation": "before the chamberlain."
+    },
+    {
+      "type": "content",
+      "number": "17",
+      "content": "mu-du-u2 sza zi-it-ti",
+      "translation": "Witness to the allotment"
+    },
+    {
+      "type": "content",
+      "number": "18",
+      "content": "sza Ia-u-kin sza Ia-a-hu-du",
+      "translation": "of Jehoiachin of the land of Judah:"
+    },
+    {
+      "type": "content",
+      "number": "19",
+      "content": "mNa-bi-um-kin DUMU.LUGAL",
+      "translation": "Nabu-kin, the royal prince,"
+    },
+    {
+      "type": "content",
+      "number": "20",
+      "content": "it-ti sza-kin-ti-isu2 isz-ta-pa-ar",
+      "translation": "sent (this) with the chamberlain."
+    },
+    {
+      "type": "dollar",
+      "content": "$ blank space"
+    }
+  ],
+  "status": "translated",
+  "translation_count": 20,
+  "pipeline_stderr": "",
+  "timestamp": "2026-03-16T08:04:59.677427Z"
+}

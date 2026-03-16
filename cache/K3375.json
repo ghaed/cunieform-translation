@@ -1,0 +1,250 @@
+{
+  "tablet_id": "K3375",
+  "name": "K 03375 (BM)",
+  "title": "The Flood Tablet",
+  "description": "The most famous cuneiform tablet in existence. Contains the flood narrative from Tablet XI of the Epic of Gilgamesh — the story of Utnapishtim, the ark, and the great deluge. Discovered by George Smith in 1872, who recognized its parallels to the biblical flood account.",
+  "period": "Neo-Assyrian (ca. 7th century BCE)",
+  "provenance": "Nineveh (Library of Ashurbanipal)",
+  "genre": "Literary",
+  "cdli_image_url": "https://cdli.mpiwg-berlin.mpg.de/dl/photo/K3375.jpg",
+  "cdli_url": "https://cdli.mpiwg-berlin.mpg.de/artifacts/K3375",
+  "raw_atf": "&K3375 = K 03375 (Epic of Gilgamesh, Tablet XI — Flood Tablet)\n#atf: lang akk\n#note: Neo-Assyrian copy, Library of Ashurbanipal, 7th c. BCE. British Museum. Excerpt: Utnapishtim's account of the flood.\n@tablet\n@obverse\n1. Ut-na-pisz-tim a-na szu-a-szu iz-zak-kar\n2. lu-uq-bi-ik-ka ni-is-ir-ti DINGIR.MES\n3. i-gar-ri i-gar-ri ku-us-su-pu uz-ni-ka\n4. Szu-ru-up-pak uru a-sza2-re-du\n5. sza ina ki-szad pu-rat-ti szak-nu\n6. uru szu-a-tu la-bi-ri-ma DINGIR.MES lib-bi-szu-nu usz-bu\n7. ir-te-'-u DINGIR.MES ra-bu-ti li-ih-li-iq a-bu-bu\n8. it-ti-su-nu A-num ra-bi-um\n9. Be-el sa pu-uh-ri-su-nu\n10. ka-szid ADAD\n11. i-gar-ri i-gar-ri ku-us-su-pu uz-ni-ka\n12. ma-tum li-ih-li-iq\n13. e-li-ip-pa e-pu-us bu-ul-li-it na-pisz-ti-ka\n14. e-pi-isz-ma e-li-ip-pa szu-a-ti usz-ra-a-ti-sza\n15. la mu-da-a mi-sil szu-s,i-ka\n@reverse\n16. im-ta-luu sza-mu-u ri-hi-it-sa\n17. it-ti sa-a-ri ta-ha-zu-ma at-bu-u-uk\n18. a-di same-e u3 ers,etim uq-ta-ab-bi-ir\n19. a-na ki-ma ta-ha-za-ri-i nu-usz-bu\n20. la i-ta-mar a-hu-u a-ha-a-szu\n21. la it-ta-di-ru DINGIR.MES a-na same-e\n22. ub-lu-ma i-na s,e-rim sza-ra-pi\n23. id-dam-qu-u i-na same-e ra-pa-aszi\n24. u4-mu 7-kam i-nu-ma at-ta-ra-ar su-um-ma-a-tu\n25. u-ma-asz-szer-szi-ma i-ta-lak-ma\n26. id-da-an-na-am u-tu-er-ra-am\n27. u4-mu 7-kam i-nu-ma at-ta-ra-ar sin-nin-nu\n28. u-ma-asz-szer-szi-ma i-ta-lak-ma\n29. la i-ta-mar ma-na-ha-tum\n30. it-tu-ra-am-ma\n31. u4-mu 7-kam i-nu-ma at-ta-ra-ar a-ri-ba\n32. u-ma-asz-szer-szi a-ri-bi it-ta-lak-ma\n33. i-mur na-ba-szu-u a-kal i-kul\n34. ib-ba-al-ki-it la it-tu-ra-am-ma\n$ rest broken\n",
+  "sections": [
+    {
+      "type": "id_line",
+      "content": "&K3375 = K 03375 (Epic of Gilgamesh, Tablet XI — Flood Tablet)"
+    },
+    {
+      "type": "comment",
+      "content": "#atf: lang akk"
+    },
+    {
+      "type": "comment",
+      "content": "#note: Neo-Assyrian copy, Library of Ashurbanipal, 7th c. BCE. British Museum. Excerpt: Utnapishtim's account of the flood."
+    },
+    {
+      "type": "structural",
+      "content": "@tablet"
+    },
+    {
+      "type": "structural",
+      "content": "@obverse"
+    },
+    {
+      "type": "content",
+      "number": "1",
+      "content": "Ut-na-pisz-tim a-na szu-a-szu iz-zak-kar",
+      "translation": "Utnapishtim spoke to him:"
+    },
+    {
+      "type": "content",
+      "number": "2",
+      "content": "lu-uq-bi-ik-ka ni-is-ir-ti DINGIR.MES",
+      "translation": "\"I will reveal to you a hidden matter,"
+    },
+    {
+      "type": "content",
+      "number": "3",
+      "content": "i-gar-ri i-gar-ri ku-us-su-pu uz-ni-ka",
+      "translation": "a secret of the gods I will tell you:"
+    },
+    {
+      "type": "content",
+      "number": "4",
+      "content": "Szu-ru-up-pak uru a-sza2-re-du",
+      "translation": "Shuruppak — a city you know well,"
+    },
+    {
+      "type": "content",
+      "number": "5",
+      "content": "sza ina ki-szad pu-rat-ti szak-nu",
+      "translation": "which lies on the bank of the Euphrates —"
+    },
+    {
+      "type": "content",
+      "number": "6",
+      "content": "uru szu-a-tu la-bi-ri-ma DINGIR.MES lib-bi-szu-nu usz-bu",
+      "translation": "that city was ancient, and the gods within it"
+    },
+    {
+      "type": "content",
+      "number": "7",
+      "content": "ir-te-'-u DINGIR.MES ra-bu-ti li-ih-li-iq a-bu-bu",
+      "translation": "resolved to send a flood, the great gods all:"
+    },
+    {
+      "type": "content",
+      "number": "8",
+      "content": "it-ti-su-nu A-num ra-bi-um",
+      "translation": "Anu, their father,"
+    },
+    {
+      "type": "content",
+      "number": "9",
+      "content": "Be-el sa pu-uh-ri-su-nu",
+      "translation": "Bel, their counsellor,"
+    },
+    {
+      "type": "content",
+      "number": "10",
+      "content": "ka-szid ADAD",
+      "translation": "Kashshu, the enforcer,"
+    },
+    {
+      "type": "content",
+      "number": "11",
+      "content": "i-gar-ri i-gar-ri ku-us-su-pu uz-ni-ka",
+      "translation": "a secret of the gods I will tell you:"
+    },
+    {
+      "type": "content",
+      "number": "12",
+      "content": "ma-tum li-ih-li-iq",
+      "translation": "the land shall be destroyed by flood."
+    },
+    {
+      "type": "content",
+      "number": "13",
+      "content": "e-li-ip-pa e-pu-us bu-ul-li-it na-pisz-ti-ka",
+      "translation": "Build a boat; save your life."
+    },
+    {
+      "type": "content",
+      "number": "14",
+      "content": "e-pi-isz-ma e-li-ip-pa szu-a-ti usz-ra-a-ti-sza",
+      "translation": "Build that boat with its dimensions,"
+    },
+    {
+      "type": "content",
+      "number": "15",
+      "content": "la mu-da-a mi-sil szu-s,i-ka",
+      "translation": "so that none but you may know its breadth."
+    },
+    {
+      "type": "structural",
+      "content": "@reverse"
+    },
+    {
+      "type": "content",
+      "number": "16",
+      "content": "im-ta-luu sza-mu-u ri-hi-it-sa",
+      "translation": "The whole sky turned black with storm."
+    },
+    {
+      "type": "content",
+      "number": "17",
+      "content": "it-ti sa-a-ri ta-ha-zu-ma at-bu-u-uk",
+      "translation": "Together with the wind the battle began,"
+    },
+    {
+      "type": "content",
+      "number": "18",
+      "content": "a-di same-e u3 ers,etim uq-ta-ab-bi-ir",
+      "translation": "sweeping over sky and earth alike."
+    },
+    {
+      "type": "content",
+      "number": "19",
+      "content": "a-na ki-ma ta-ha-za-ri-i nu-usz-bu",
+      "translation": "Like a battle charge it swept the land;"
+    },
+    {
+      "type": "content",
+      "number": "20",
+      "content": "la i-ta-mar a-hu-u a-ha-a-szu",
+      "translation": "no man could see his fellow,"
+    },
+    {
+      "type": "content",
+      "number": "21",
+      "content": "la it-ta-di-ru DINGIR.MES a-na same-e",
+      "translation": "the gods themselves cowered in heaven,"
+    },
+    {
+      "type": "content",
+      "number": "22",
+      "content": "ub-lu-ma i-na s,e-rim sza-ra-pi",
+      "translation": "crouching like dogs at the outer wall."
+    },
+    {
+      "type": "content",
+      "number": "23",
+      "content": "id-dam-qu-u i-na same-e ra-pa-aszi",
+      "translation": "On the seventh day I released a dove."
+    },
+    {
+      "type": "content",
+      "number": "24",
+      "content": "u4-mu 7-kam i-nu-ma at-ta-ra-ar su-um-ma-a-tu",
+      "translation": "The dove flew off but then returned —"
+    },
+    {
+      "type": "content",
+      "number": "25",
+      "content": "u-ma-asz-szer-szi-ma i-ta-lak-ma",
+      "translation": "it found no resting place and came back."
+    },
+    {
+      "type": "content",
+      "number": "26",
+      "content": "id-da-an-na-am u-tu-er-ra-am",
+      "translation": "On the seventh day I released a swallow."
+    },
+    {
+      "type": "content",
+      "number": "27",
+      "content": "u4-mu 7-kam i-nu-ma at-ta-ra-ar sin-nin-nu",
+      "translation": "The swallow flew off but then returned —"
+    },
+    {
+      "type": "content",
+      "number": "28",
+      "content": "u-ma-asz-szer-szi-ma i-ta-lak-ma",
+      "translation": "it found no resting place and came back."
+    },
+    {
+      "type": "content",
+      "number": "29",
+      "content": "la i-ta-mar ma-na-ha-tum",
+      "translation": "On the seventh day I released a raven."
+    },
+    {
+      "type": "content",
+      "number": "30",
+      "content": "it-tu-ra-am-ma",
+      "translation": "The raven flew off; it saw that the waters had receded,"
+    },
+    {
+      "type": "content",
+      "number": "31",
+      "content": "u4-mu 7-kam i-nu-ma at-ta-ra-ar a-ri-ba",
+      "translation": "it ate, it preened, it did not return."
+    },
+    {
+      "type": "content",
+      "number": "32",
+      "content": "u-ma-asz-szer-szi a-ri-bi it-ta-lak-ma",
+      "translation": "$ rest broken"
+    },
+    {
+      "type": "content",
+      "number": "33",
+      "content": "i-mur na-ba-szu-u a-kal i-kul",
+      "translation": ""
+    },
+    {
+      "type": "content",
+      "number": "34",
+      "content": "ib-ba-al-ki-it la it-tu-ra-am-ma",
+      "translation": ""
+    },
+    {
+      "type": "dollar",
+      "content": "$ rest broken"
+    }
+  ],
+  "status": "translated",
+  "translation_count": 32,
+  "pipeline_stderr": "",
+  "timestamp": "2026-03-16T08:04:59.675135Z"
+}
