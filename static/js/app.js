@@ -9,6 +9,10 @@ let tablets = [];           // array of tablet metadata objects
 let currentTablet = null;   // currently selected tablet metadata
 let currentData = null;     // last translation API response
 
+// ---- Expert mode state ----
+let expertMode = false;
+let expertVerdicts = {};    // idx -> { verdict: 'correct'|'incorrect', proposed: '' }
+
 // ---- DOM refs ----
 const selectEl        = document.getElementById('tablet-select');
 const translateBtn    = document.getElementById('translate-btn');
@@ -30,6 +34,15 @@ const outputTitle     = document.getElementById('output-tablet-title');
 const clearCacheBtn   = document.getElementById('clear-cache-btn');
 const atfContent      = document.getElementById('atf-content');
 const translContent   = document.getElementById('translation-content');
+
+// ---- Expert mode DOM refs ----
+const expertToggle      = document.getElementById('expert-toggle');
+const expertSubmitBar   = document.getElementById('expert-submit-bar');
+const expertVerdictCount = document.getElementById('expert-verdict-count');
+const expertTabletNameEl = document.getElementById('expert-tablet-name');
+const expertNameInput   = document.getElementById('expert-name');
+const expertEmailInput  = document.getElementById('expert-email');
+const expertSubmitBtn   = document.getElementById('expert-submit-btn');
 
 // ============================================================
 // Boot
@@ -119,6 +132,8 @@ async function doTranslate(tabletId) {
   hide(outputSection);
   show(loadingBanner);
   translateBtn.disabled = true;
+  expertVerdicts = {};
+  hide(expertSubmitBar);
 
   try {
     const res = await fetch(`/api/translate/${tabletId}`);
@@ -171,6 +186,11 @@ function renderOutput(data) {
       atfRow.appendChild(textEl);
 
       trRow.className = 'tr-row';
+
+      // tr-main: translation text + verdict buttons (side by side)
+      const trMain = document.createElement('div');
+      trMain.className = 'tr-main';
+
       const trText = document.createElement('span');
       if (sec.translation) {
         trText.className = 'tr-text';
@@ -179,7 +199,25 @@ function renderOutput(data) {
         trText.className = 'tr-placeholder';
         trText.textContent = '—';
       }
-      trRow.appendChild(trText);
+      trMain.appendChild(trText);
+
+      // Verdict controls (hidden until expert mode via CSS)
+      const vControls = document.createElement('span');
+      vControls.className = 'verdict-controls';
+      vControls.innerHTML =
+        `<button class="vbtn vbtn-ok" data-idx="${idx}" title="Mark correct">✓</button>` +
+        `<button class="vbtn vbtn-no" data-idx="${idx}" title="Mark incorrect">✗</button>`;
+      trMain.appendChild(vControls);
+
+      trRow.appendChild(trMain);
+
+      // Correction textarea (shown when line is marked incorrect)
+      const corrInput = document.createElement('textarea');
+      corrInput.className = 'correction-input hidden';
+      corrInput.dataset.correctionFor = idx;
+      corrInput.placeholder = 'Proposed translation…';
+      corrInput.rows = 2;
+      trRow.appendChild(corrInput);
 
       // Hover sync
       [atfRow, trRow].forEach(el => {
@@ -328,6 +366,144 @@ function hideStatus() { hide(statusBanner); }
 
 function show(el) { el.classList.remove('hidden'); }
 function hide(el) { el.classList.add('hidden'); }
+
+// ============================================================
+// Expert mode
+// ============================================================
+
+expertToggle.addEventListener('click', e => {
+  e.preventDefault();
+  expertMode = !expertMode;
+  document.body.classList.toggle('expert-mode', expertMode);
+  expertToggle.textContent = expertMode ? 'exit scholar mode' : 'scholar mode';
+  if (!expertMode) {
+    clearExpertUI();
+    expertVerdicts = {};
+    hide(expertSubmitBar);
+  }
+});
+
+// Event delegation — verdict buttons
+translContent.addEventListener('click', e => {
+  if (!expertMode) return;
+  const btn = e.target.closest('.vbtn');
+  if (!btn) return;
+  const idx = parseInt(btn.dataset.idx);
+  const verdict = btn.classList.contains('vbtn-ok') ? 'correct' : 'incorrect';
+  setVerdict(idx, verdict);
+});
+
+// Event delegation — correction textarea
+translContent.addEventListener('input', e => {
+  if (!expertMode) return;
+  const ta = e.target.closest('.correction-input');
+  if (!ta) return;
+  const idx = parseInt(ta.dataset.correctionFor);
+  if (expertVerdicts[idx]) {
+    expertVerdicts[idx].proposed = ta.value;
+  }
+  updateSubmitBar();
+});
+
+expertSubmitBtn.addEventListener('click', submitExpertFeedback);
+
+function setVerdict(idx, verdict) {
+  const trRow = translContent.querySelector(`[data-idx="${idx}"]`);
+  if (!trRow) return;
+
+  // Toggle off if same verdict clicked again
+  if (expertVerdicts[idx] && expertVerdicts[idx].verdict === verdict) {
+    delete expertVerdicts[idx];
+    trRow.classList.remove('verdict-correct', 'verdict-incorrect');
+    const ta = trRow.querySelector('.correction-input');
+    if (ta) { ta.classList.add('hidden'); ta.value = ''; }
+  } else {
+    const prev = expertVerdicts[idx] || {};
+    expertVerdicts[idx] = { verdict, proposed: prev.proposed || '' };
+    trRow.classList.toggle('verdict-correct',  verdict === 'correct');
+    trRow.classList.toggle('verdict-incorrect', verdict === 'incorrect');
+    const ta = trRow.querySelector('.correction-input');
+    if (ta) {
+      ta.classList.toggle('hidden', verdict !== 'incorrect');
+      if (verdict === 'incorrect' && expertVerdicts[idx].proposed) {
+        ta.value = expertVerdicts[idx].proposed;
+      } else if (verdict !== 'incorrect') {
+        ta.value = '';
+      }
+    }
+  }
+
+  // Sync button active states
+  const okBtn = trRow.querySelector('.vbtn-ok');
+  const noBtn = trRow.querySelector('.vbtn-no');
+  if (okBtn) okBtn.classList.toggle('active', expertVerdicts[idx]?.verdict === 'correct');
+  if (noBtn) noBtn.classList.toggle('active', expertVerdicts[idx]?.verdict === 'incorrect');
+
+  updateSubmitBar();
+}
+
+function updateSubmitBar() {
+  const count = Object.keys(expertVerdicts).length;
+  if (count === 0 || !currentData) { hide(expertSubmitBar); return; }
+  expertVerdictCount.textContent = count;
+  expertTabletNameEl.textContent = currentData.name || currentData.tablet_id;
+  show(expertSubmitBar);
+}
+
+function clearExpertUI() {
+  translContent.querySelectorAll('.tr-row').forEach(row => {
+    row.classList.remove('verdict-correct', 'verdict-incorrect');
+    const ta = row.querySelector('.correction-input');
+    if (ta) { ta.classList.add('hidden'); ta.value = ''; }
+    row.querySelectorAll('.vbtn').forEach(b => b.classList.remove('active'));
+  });
+}
+
+async function submitExpertFeedback() {
+  if (!currentData) return;
+
+  const lines = Object.entries(expertVerdicts).map(([idx, v]) => {
+    const sec = currentData.sections[parseInt(idx)];
+    return {
+      line_number:          sec?.number || '',
+      atf_content:          sec?.content || '',
+      original_translation: sec?.translation || '',
+      verdict:              v.verdict,
+      proposed_translation: v.proposed || '',
+    };
+  });
+
+  const payload = {
+    tablet_id:      currentData.tablet_id,
+    lines,
+    reviewer_name:  expertNameInput.value.trim(),
+    reviewer_email: expertEmailInput.value.trim(),
+  };
+
+  expertSubmitBtn.disabled    = true;
+  expertSubmitBtn.textContent = 'Submitting…';
+
+  try {
+    const res = await fetch('/api/feedback', {
+      method:  'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body:    JSON.stringify(payload),
+    });
+    if (!res.ok) throw new Error('Server error');
+
+    expertVerdicts = {};
+    expertNameInput.value  = '';
+    expertEmailInput.value = '';
+    hide(expertSubmitBar);
+    clearExpertUI();
+    showStatus('ok', `✓ Review submitted — ${lines.length} line(s). Thank you for your contribution.`);
+  } catch {
+    showStatus('err', '✕ Failed to submit review. Please try again.');
+  } finally {
+    expertSubmitBtn.disabled    = false;
+    expertSubmitBtn.textContent = 'Publish Review';
+  }
+}
 
 // ============================================================
 // Start

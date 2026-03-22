@@ -9,12 +9,13 @@ on-demand via the ML pipeline and cached to disk.
 
 import os
 import json
+import sqlite3
 import subprocess
 import threading
 import re
 import shutil
 from datetime import datetime
-from flask import Flask, jsonify, render_template, abort
+from flask import Flask, jsonify, render_template, abort, request
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 PIPELINE_DIR = os.path.abspath(os.path.join(BASE_DIR, '..', 'Sumerian-Translation-Pipeline'))
@@ -22,6 +23,30 @@ CACHE_DIR = os.path.join(BASE_DIR, 'cache')
 ATF_DIR = os.path.join(BASE_DIR, 'atf')
 
 os.makedirs(CACHE_DIR, exist_ok=True)
+
+DB_PATH = os.path.join(BASE_DIR, 'feedback.db')
+
+
+def init_db():
+    with sqlite3.connect(DB_PATH) as conn:
+        conn.execute('''
+            CREATE TABLE IF NOT EXISTS feedback (
+                id                   INTEGER PRIMARY KEY AUTOINCREMENT,
+                tablet_id            TEXT NOT NULL,
+                line_number          TEXT NOT NULL,
+                atf_content          TEXT,
+                original_translation TEXT,
+                verdict              TEXT NOT NULL,
+                proposed_translation TEXT,
+                reviewer_name        TEXT,
+                reviewer_email       TEXT,
+                submitted_at         TEXT NOT NULL
+            )
+        ''')
+        conn.commit()
+
+
+init_db()
 
 app = Flask(__name__)
 
@@ -274,6 +299,59 @@ def clear_cache(tablet_id):
 @app.route('/api/status')
 def pipeline_status():
     return jsonify(_check_pipeline_ready())
+
+
+@app.route('/api/feedback', methods=['POST'])
+def submit_feedback():
+    data = request.get_json()
+    if not data:
+        abort(400, description='JSON body required')
+    tablet_id = data.get('tablet_id')
+    lines = data.get('lines', [])
+    if not tablet_id or not lines:
+        abort(400, description='tablet_id and lines are required')
+    reviewer_name  = data.get('reviewer_name', '')
+    reviewer_email = data.get('reviewer_email', '')
+    submitted_at   = datetime.utcnow().isoformat() + 'Z'
+    with sqlite3.connect(DB_PATH) as conn:
+        for line in lines:
+            conn.execute(
+                '''INSERT INTO feedback
+                   (tablet_id, line_number, atf_content, original_translation,
+                    verdict, proposed_translation, reviewer_name, reviewer_email, submitted_at)
+                   VALUES (?,?,?,?,?,?,?,?,?)''',
+                (
+                    tablet_id,
+                    line.get('line_number', ''),
+                    line.get('atf_content', ''),
+                    line.get('original_translation', ''),
+                    line.get('verdict', ''),
+                    line.get('proposed_translation', ''),
+                    reviewer_name,
+                    reviewer_email,
+                    submitted_at,
+                )
+            )
+        conn.commit()
+    return jsonify({'message': f'Feedback submitted: {len(lines)} line(s) reviewed',
+                    'submitted_at': submitted_at})
+
+
+@app.route('/api/feedback', methods=['GET'])
+def get_feedback():
+    tablet_id = request.args.get('tablet_id')
+    with sqlite3.connect(DB_PATH) as conn:
+        conn.row_factory = sqlite3.Row
+        if tablet_id:
+            rows = conn.execute(
+                'SELECT * FROM feedback WHERE tablet_id=? ORDER BY submitted_at DESC',
+                (tablet_id,)
+            ).fetchall()
+        else:
+            rows = conn.execute(
+                'SELECT * FROM feedback ORDER BY submitted_at DESC'
+            ).fetchall()
+    return jsonify([dict(r) for r in rows])
 
 
 if __name__ == '__main__':

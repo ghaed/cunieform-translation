@@ -105,9 +105,12 @@
         <span id="output-tablet-name"></span>
         <span class="output-subtitle" id="output-tablet-title"></span>
       </h2>
-      <button id="clear-cache-btn" class="btn-clear" title="Re-run pipeline (clears cache)">
-        ↺ Re-translate
-      </button>
+      <div class="output-header-actions">
+        <button id="expert-toggle" class="btn-clear">Scholar Mode</button>
+        <button id="clear-cache-btn" class="btn-clear" title="Re-run pipeline (clears cache)">
+          ↺ Re-translate
+        </button>
+      </div>
     </div>
 
     <div class="legend">
@@ -152,6 +155,22 @@
       <a href="https://cdli.mpiwg-berlin.mpg.de" target="_blank" rel="noopener">CDLI</a>
     </p>
   </footer>
+
+  <!-- ===== EXPERT SUBMIT BAR ===== -->
+  <div id="expert-submit-bar" class="expert-submit-bar hidden">
+    <div class="expert-submit-inner">
+      <div class="expert-submit-info">
+        <span class="expert-mode-label">Scholar Review</span>
+        <span id="expert-verdict-count">0</span> line(s) marked
+        on <em id="expert-tablet-name"></em>
+      </div>
+      <div class="expert-submit-fields">
+        <input type="text"  id="expert-name"  class="expert-input" placeholder="Your name (optional)">
+        <input type="email" id="expert-email" class="expert-input" placeholder="Email (optional)">
+        <button id="expert-submit-btn" class="btn-expert-submit">Publish Review</button>
+      </div>
+    </div>
+  </div>
 
   <script src="/static/js/app.js"></script>
 </body>
